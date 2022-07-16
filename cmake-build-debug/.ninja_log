@@ -1,3 +1,4 @@
 # ninja log v5
-0	287	6794682655343012	CMakeFiles/DataStructure.dir/main.cpp.obj	2fa2877a17416523
 290	442	6794682656873484	DataStructure.exe	7482095f85fb20a
+1	88	6794710411169245	CMakeFiles/Sqlist.dir/linear-list/Sqlist.cpp.obj	ed704860341484dc
+88	247	6794710412734216	Sqlist.exe	5445acd069fb984c

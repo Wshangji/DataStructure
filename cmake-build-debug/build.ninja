@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/CodeProject/ClionProjects/DataStructure/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target DataStructure
+# Object build statements for EXECUTABLE target Sqlist
 
 
 #############################################
-# Order-only phony target for DataStructure
+# Order-only phony target for Sqlist
 
-build cmake_object_order_depends_target_DataStructure: phony || CMakeFiles/DataStructure.dir
+build cmake_object_order_depends_target_Sqlist: phony || CMakeFiles/Sqlist.dir
 
-build CMakeFiles/DataStructure.dir/main.cpp.obj: CXX_COMPILER__DataStructure_Debug D$:/CodeProject/ClionProjects/DataStructure/main.cpp || cmake_object_order_depends_target_DataStructure
-  DEP_FILE = CMakeFiles\DataStructure.dir\main.cpp.obj.d
+build CMakeFiles/Sqlist.dir/linear-list/Sqlist.cpp.obj: CXX_COMPILER__Sqlist_Debug D$:/CodeProject/ClionProjects/DataStructure/linear-list/Sqlist.cpp || cmake_object_order_depends_target_Sqlist
+  DEP_FILE = CMakeFiles\Sqlist.dir\linear-list\Sqlist.cpp.obj.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles\DataStructure.dir
-  OBJECT_FILE_DIR = CMakeFiles\DataStructure.dir
+  OBJECT_DIR = CMakeFiles\Sqlist.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sqlist.dir\linear-list
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DataStructure
+# Link build statements for EXECUTABLE target Sqlist
 
 
 #############################################
-# Link the executable DataStructure.exe
+# Link the executable Sqlist.exe
 
-build DataStructure.exe: CXX_EXECUTABLE_LINKER__DataStructure_Debug CMakeFiles/DataStructure.dir/main.cpp.obj
+build Sqlist.exe: CXX_EXECUTABLE_LINKER__Sqlist_Debug CMakeFiles/Sqlist.dir/linear-list/Sqlist.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\DataStructure.dir
+  OBJECT_DIR = CMakeFiles\Sqlist.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = DataStructure.exe
-  TARGET_IMPLIB = libDataStructure.dll.a
-  TARGET_PDB = DataStructure.exe.dbg
+  TARGET_FILE = Sqlist.exe
+  TARGET_IMPLIB = libSqlist.dll.a
+  TARGET_PDB = Sqlist.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build DataStructure: phony DataStructure.exe
+build Sqlist: phony Sqlist.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build DataStructure: phony DataStructure.exe
 #############################################
 # Folder: D:/CodeProject/ClionProjects/DataStructure/cmake-build-debug
 
-build all: phony DataStructure.exe
+build all: phony Sqlist.exe
 
 # =============================================================================
 # Built-in targets
