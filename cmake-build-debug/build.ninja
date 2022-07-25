@@ -41,37 +41,169 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/CodeProject/ClionProjects/DataStructure/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Sqlist
+# Object build statements for EXECUTABLE target SinglyLinkedList
 
 
 #############################################
-# Order-only phony target for Sqlist
+# Order-only phony target for SinglyLinkedList
 
-build cmake_object_order_depends_target_Sqlist: phony || CMakeFiles/Sqlist.dir
+build cmake_object_order_depends_target_SinglyLinkedList: phony || CMakeFiles/SinglyLinkedList.dir
 
-build CMakeFiles/Sqlist.dir/linear-list/Sqlist.cpp.obj: CXX_COMPILER__Sqlist_Debug D$:/CodeProject/ClionProjects/DataStructure/linear-list/Sqlist.cpp || cmake_object_order_depends_target_Sqlist
-  DEP_FILE = CMakeFiles\Sqlist.dir\linear-list\Sqlist.cpp.obj.d
+build CMakeFiles/SinglyLinkedList.dir/linear-list/SinglyLinkedList.cpp.obj: CXX_COMPILER__SinglyLinkedList_Debug D$:/CodeProject/ClionProjects/DataStructure/linear-list/SinglyLinkedList.cpp || cmake_object_order_depends_target_SinglyLinkedList
+  DEP_FILE = CMakeFiles\SinglyLinkedList.dir\linear-list\SinglyLinkedList.cpp.obj.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles\Sqlist.dir
-  OBJECT_FILE_DIR = CMakeFiles\Sqlist.dir\linear-list
+  OBJECT_DIR = CMakeFiles\SinglyLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\SinglyLinkedList.dir\linear-list
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Sqlist
+# Link build statements for EXECUTABLE target SinglyLinkedList
 
 
 #############################################
-# Link the executable Sqlist.exe
+# Link the executable SinglyLinkedList.exe
 
-build Sqlist.exe: CXX_EXECUTABLE_LINKER__Sqlist_Debug CMakeFiles/Sqlist.dir/linear-list/Sqlist.cpp.obj
+build SinglyLinkedList.exe: CXX_EXECUTABLE_LINKER__SinglyLinkedList_Debug CMakeFiles/SinglyLinkedList.dir/linear-list/SinglyLinkedList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Sqlist.dir
+  OBJECT_DIR = CMakeFiles\SinglyLinkedList.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Sqlist.exe
-  TARGET_IMPLIB = libSqlist.dll.a
-  TARGET_PDB = Sqlist.exe.dbg
+  TARGET_FILE = SinglyLinkedList.exe
+  TARGET_IMPLIB = libSinglyLinkedList.dll.a
+  TARGET_PDB = SinglyLinkedList.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SequenatialList
+
+
+#############################################
+# Order-only phony target for SequenatialList
+
+build cmake_object_order_depends_target_SequenatialList: phony || CMakeFiles/SequenatialList.dir
+
+build CMakeFiles/SequenatialList.dir/linear-list/SequenatialList.cpp.obj: CXX_COMPILER__SequenatialList_Debug D$:/CodeProject/ClionProjects/DataStructure/linear-list/SequenatialList.cpp || cmake_object_order_depends_target_SequenatialList
+  DEP_FILE = CMakeFiles\SequenatialList.dir\linear-list\SequenatialList.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\SequenatialList.dir
+  OBJECT_FILE_DIR = CMakeFiles\SequenatialList.dir\linear-list
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SequenatialList
+
+
+#############################################
+# Link the executable SequenatialList.exe
+
+build SequenatialList.exe: CXX_EXECUTABLE_LINKER__SequenatialList_Debug CMakeFiles/SequenatialList.dir/linear-list/SequenatialList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SequenatialList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SequenatialList.exe
+  TARGET_IMPLIB = libSequenatialList.dll.a
+  TARGET_PDB = SequenatialList.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DoubleLinkedList
+
+
+#############################################
+# Order-only phony target for DoubleLinkedList
+
+build cmake_object_order_depends_target_DoubleLinkedList: phony || CMakeFiles/DoubleLinkedList.dir
+
+build CMakeFiles/DoubleLinkedList.dir/linear-list/DoubleLinkedList.cpp.obj: CXX_COMPILER__DoubleLinkedList_Debug D$:/CodeProject/ClionProjects/DataStructure/linear-list/DoubleLinkedList.cpp || cmake_object_order_depends_target_DoubleLinkedList
+  DEP_FILE = CMakeFiles\DoubleLinkedList.dir\linear-list\DoubleLinkedList.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\DoubleLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\DoubleLinkedList.dir\linear-list
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DoubleLinkedList
+
+
+#############################################
+# Link the executable DoubleLinkedList.exe
+
+build DoubleLinkedList.exe: CXX_EXECUTABLE_LINKER__DoubleLinkedList_Debug CMakeFiles/DoubleLinkedList.dir/linear-list/DoubleLinkedList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DoubleLinkedList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DoubleLinkedList.exe
+  TARGET_IMPLIB = libDoubleLinkedList.dll.a
+  TARGET_PDB = DoubleLinkedList.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CircylarLinkedList
+
+
+#############################################
+# Order-only phony target for CircylarLinkedList
+
+build cmake_object_order_depends_target_CircylarLinkedList: phony || CMakeFiles/CircylarLinkedList.dir
+
+build CMakeFiles/CircylarLinkedList.dir/linear-list/CircylarLinkedList.cpp.obj: CXX_COMPILER__CircylarLinkedList_Debug D$:/CodeProject/ClionProjects/DataStructure/linear-list/CircylarLinkedList.cpp || cmake_object_order_depends_target_CircylarLinkedList
+  DEP_FILE = CMakeFiles\CircylarLinkedList.dir\linear-list\CircylarLinkedList.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\CircylarLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\CircylarLinkedList.dir\linear-list
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CircylarLinkedList
+
+
+#############################################
+# Link the executable CircylarLinkedList.exe
+
+build CircylarLinkedList.exe: CXX_EXECUTABLE_LINKER__CircylarLinkedList_Debug CMakeFiles/CircylarLinkedList.dir/linear-list/CircylarLinkedList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CircylarLinkedList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CircylarLinkedList.exe
+  TARGET_IMPLIB = libCircylarLinkedList.dll.a
+  TARGET_PDB = CircylarLinkedList.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DoubleCircularLinkedList
+
+
+#############################################
+# Order-only phony target for DoubleCircularLinkedList
+
+build cmake_object_order_depends_target_DoubleCircularLinkedList: phony || CMakeFiles/DoubleCircularLinkedList.dir
+
+build CMakeFiles/DoubleCircularLinkedList.dir/linear-list/DoubleCircularLinkedList.cpp.obj: CXX_COMPILER__DoubleCircularLinkedList_Debug D$:/CodeProject/ClionProjects/DataStructure/linear-list/DoubleCircularLinkedList.cpp || cmake_object_order_depends_target_DoubleCircularLinkedList
+  DEP_FILE = CMakeFiles\DoubleCircularLinkedList.dir\linear-list\DoubleCircularLinkedList.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\DoubleCircularLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\DoubleCircularLinkedList.dir\linear-list
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DoubleCircularLinkedList
+
+
+#############################################
+# Link the executable DoubleCircularLinkedList.exe
+
+build DoubleCircularLinkedList.exe: CXX_EXECUTABLE_LINKER__DoubleCircularLinkedList_Debug CMakeFiles/DoubleCircularLinkedList.dir/linear-list/DoubleCircularLinkedList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DoubleCircularLinkedList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DoubleCircularLinkedList.exe
+  TARGET_IMPLIB = libDoubleCircularLinkedList.dll.a
+  TARGET_PDB = DoubleCircularLinkedList.exe.dbg
 
 
 #############################################
@@ -99,7 +231,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Sqlist: phony Sqlist.exe
+build CircylarLinkedList: phony CircylarLinkedList.exe
+
+build DoubleCircularLinkedList: phony DoubleCircularLinkedList.exe
+
+build DoubleLinkedList: phony DoubleLinkedList.exe
+
+build SequenatialList: phony SequenatialList.exe
+
+build SinglyLinkedList: phony SinglyLinkedList.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +249,7 @@ build Sqlist: phony Sqlist.exe
 #############################################
 # Folder: D:/CodeProject/ClionProjects/DataStructure/cmake-build-debug
 
-build all: phony Sqlist.exe
+build all: phony SinglyLinkedList.exe SequenatialList.exe DoubleLinkedList.exe CircylarLinkedList.exe DoubleCircularLinkedList.exe
 
 # =============================================================================
 # Built-in targets
