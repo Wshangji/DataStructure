@@ -84,4 +84,20 @@ void merge(LNode *A, LNode *B, LNode *&C) {
     C->next = NULL;
     free(B);    // 释放B的头节点
     r = C;
+    while (p != NULL && q != NULL) {
+        if (p->data <= q->data) {
+            r->next = p;
+            r = r->next;
+            p = p->next;
+        } else {
+            r->next = q;
+            r= r->next;
+            q = q->next;
+        }
+    }
+    r->next = NULL;
+    if (p != NULL)
+        r->next = p;
+    if (q != NULL)
+        r->next = q;
 }

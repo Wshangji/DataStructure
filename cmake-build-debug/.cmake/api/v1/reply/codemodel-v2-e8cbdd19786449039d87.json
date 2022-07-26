@@ -17,9 +17,7 @@
 					[
 						0,
 						1,
-						2,
-						3,
-						4
+						2
 					]
 				}
 			],
@@ -36,28 +34,12 @@
 					[
 						0,
 						1,
-						2,
-						3,
-						4
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
-				{
-					"directoryIndex" : 0,
-					"id" : "CircylarLinkedList::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CircylarLinkedList-Debug-587fefa73433502199cf.json",
-					"name" : "CircylarLinkedList",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "DoubleCircularLinkedList::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DoubleCircularLinkedList-Debug-dccc1ad65c72bfb9a7fe.json",
-					"name" : "DoubleCircularLinkedList",
-					"projectIndex" : 0
-				},
 				{
 					"directoryIndex" : 0,
 					"id" : "DoubleLinkedList::@6890427a1f51a3e7e1df",

@@ -1,7 +1,5 @@
 D:/CodeProject/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/SinglyLinkedList.dir
 D:/CodeProject/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/SequenatialList.dir
 D:/CodeProject/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/DoubleLinkedList.dir
-D:/CodeProject/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/CircylarLinkedList.dir
-D:/CodeProject/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/DoubleCircularLinkedList.dir
 D:/CodeProject/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/CodeProject/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir

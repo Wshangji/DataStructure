@@ -139,72 +139,6 @@ build DoubleLinkedList.exe: CXX_EXECUTABLE_LINKER__DoubleLinkedList_Debug CMakeF
   TARGET_IMPLIB = libDoubleLinkedList.dll.a
   TARGET_PDB = DoubleLinkedList.exe.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target CircylarLinkedList
-
-
-#############################################
-# Order-only phony target for CircylarLinkedList
-
-build cmake_object_order_depends_target_CircylarLinkedList: phony || CMakeFiles/CircylarLinkedList.dir
-
-build CMakeFiles/CircylarLinkedList.dir/linear-list/CircylarLinkedList.cpp.obj: CXX_COMPILER__CircylarLinkedList_Debug D$:/CodeProject/ClionProjects/DataStructure/linear-list/CircylarLinkedList.cpp || cmake_object_order_depends_target_CircylarLinkedList
-  DEP_FILE = CMakeFiles\CircylarLinkedList.dir\linear-list\CircylarLinkedList.cpp.obj.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles\CircylarLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles\CircylarLinkedList.dir\linear-list
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target CircylarLinkedList
-
-
-#############################################
-# Link the executable CircylarLinkedList.exe
-
-build CircylarLinkedList.exe: CXX_EXECUTABLE_LINKER__CircylarLinkedList_Debug CMakeFiles/CircylarLinkedList.dir/linear-list/CircylarLinkedList.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\CircylarLinkedList.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = CircylarLinkedList.exe
-  TARGET_IMPLIB = libCircylarLinkedList.dll.a
-  TARGET_PDB = CircylarLinkedList.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target DoubleCircularLinkedList
-
-
-#############################################
-# Order-only phony target for DoubleCircularLinkedList
-
-build cmake_object_order_depends_target_DoubleCircularLinkedList: phony || CMakeFiles/DoubleCircularLinkedList.dir
-
-build CMakeFiles/DoubleCircularLinkedList.dir/linear-list/DoubleCircularLinkedList.cpp.obj: CXX_COMPILER__DoubleCircularLinkedList_Debug D$:/CodeProject/ClionProjects/DataStructure/linear-list/DoubleCircularLinkedList.cpp || cmake_object_order_depends_target_DoubleCircularLinkedList
-  DEP_FILE = CMakeFiles\DoubleCircularLinkedList.dir\linear-list\DoubleCircularLinkedList.cpp.obj.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles\DoubleCircularLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles\DoubleCircularLinkedList.dir\linear-list
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target DoubleCircularLinkedList
-
-
-#############################################
-# Link the executable DoubleCircularLinkedList.exe
-
-build DoubleCircularLinkedList.exe: CXX_EXECUTABLE_LINKER__DoubleCircularLinkedList_Debug CMakeFiles/DoubleCircularLinkedList.dir/linear-list/DoubleCircularLinkedList.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\DoubleCircularLinkedList.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = DoubleCircularLinkedList.exe
-  TARGET_IMPLIB = libDoubleCircularLinkedList.dll.a
-  TARGET_PDB = DoubleCircularLinkedList.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -231,10 +165,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build CircylarLinkedList: phony CircylarLinkedList.exe
-
-build DoubleCircularLinkedList: phony DoubleCircularLinkedList.exe
-
 build DoubleLinkedList: phony DoubleLinkedList.exe
 
 build SequenatialList: phony SequenatialList.exe
@@ -249,7 +179,7 @@ build SinglyLinkedList: phony SinglyLinkedList.exe
 #############################################
 # Folder: D:/CodeProject/ClionProjects/DataStructure/cmake-build-debug
 
-build all: phony SinglyLinkedList.exe SequenatialList.exe DoubleLinkedList.exe CircylarLinkedList.exe DoubleCircularLinkedList.exe
+build all: phony SinglyLinkedList.exe SequenatialList.exe DoubleLinkedList.exe
 
 # =============================================================================
 # Built-in targets
